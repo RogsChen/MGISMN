@@ -1,4 +1,5 @@
 # MGISMN
+
 # Datasets
 - [The Houston2013 dataset](https://hyperspectral.ee.uh.edu/?page_id=459)
 includes a hyperspectral image (HSI) and a LiDAR-based digital surface model (DSM), collected by the National Center for Airborne Laser Mapping (NCALM) using the ITRES CASI-1500 sensor over the University of Houston campus in June 2012. The HSI comprise 144 spectral bands covering a wavelength range from 0.38 to 1.05 $\mu m$ while LiDAR data are provided for a single band. Both the HSI and LiDAR data share dimensions of 349 × 1905 pixels with a spatial resolution of 2.5 $m$. The dataset contains 15 categories, with a total of 15,029 real samples available.
@@ -17,3 +18,13 @@ Baidu Cloud link for Houston dataset: https://pan.baidu.com/s/13oovgQKaNQuoGrzKs
 Baidu Cloud link for MUUFL dataset: https://pan.baidu.com/s/1rOx1g2Cju3Cvp4-vWwQRtA.    pw：qw60
 
 Baidu Cloud link for Trento dataset: https://pan.baidu.com/s/1inM-D7YZW803I1cj5W0dgA.   pw：bzih
+
+# How to use it?
+----------
+This toolbox includes a model (named MGISMN), a collection of data processing support functions (under utils), and a demo.py file.
+The demo.py script provides an example experiment using the Houston dataset. You can simply run demo.py and adjust different parameters to obtain the results.
+
+In addition, we provide a well-organized code framework that supports single-modal and multi-modal data input processing, allows sample splitting by ratio or fixed quantity, and offers performance evaluation on the validation and test sets, as well as visualization capabilities.
+You only need to modify the network structure to directly run your own experiments.
+
+If you encounter any problems while using this code, please feel free to contact us.
